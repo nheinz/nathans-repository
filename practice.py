@@ -1,2 +1,3 @@
-for x in range(4):
+for x in range(6):
   print(x)
+print(x)
