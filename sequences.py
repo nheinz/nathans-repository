@@ -6,10 +6,10 @@ import random
 # I intend to demonstrate the ability to use comments in this homework assignment.
 
 # A sequence of assignments to generate a random problem:
-base = random.randint(0,4) # For the base, I used the module random.randint because this module will generate a random integer for us depending on the range we give it.
+base = random.randint(0,2) # For the base, I used the module random.randint because this module will generate a random integer for us depending on the range we give it.
 # In this instance, I used the range (0,4). I will elaborate on this in a later comment.
 
-exponent = random.randint(0,4) # Once again, I used the random.randint module to generate a single digit integer from 0 to 4. This range will be explained later.
+exponent = random.randint(0,2) # Once again, I used the random.randint module to generate a single digit integer from 0 to 4. This range will be explained later.
 
 answer = base ** exponent # For answer, I took the randomly generated single digit integer for base and raised that number to a randomly generated single digit number for exponent.
 # The reason for choosing the ranges that I did is that our answer cannot be four digits or larger. In this case, if we had our two largest options, 4 and 4, we would get an answer of 256. 
